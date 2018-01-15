@@ -1,0 +1,69 @@
+﻿{"key": "f5458f5c0f9022db743a7c0710145903",
+    "type": "sync",
+    "host": {
+        "prod": "POS",
+        "ip": "10.40.71.91",
+        "lang": "zh_TW",
+        "acct": "Machine ID1",
+        "timestamp": "20151211123204361"
+    },
+    "service": {
+        "prod": "T100",
+        "name": "request.create",
+        "ip": "10.40.40.18",
+        "id": "topprd"
+    },
+    "datakey": {
+        "EntId": "99",
+        "CompanyId": "DSCTC"
+    },
+    "payload": {
+        "std_data": {
+            "parameter": {
+                "request": [
+                    {
+                        "requisition_date": "需求日期",
+                        "document_date": "单据日期",
+                        "front_no": "前端单号",
+                        "remark": "备注",
+                        "status": "状态",
+                        "creator": "建立者/调拨人员",
+                        "create_datetime": "资料建立日",
+                        "modify_no": "更改人员",
+                        "modify_datetime": "更改日期",
+                        "approve_no": "审核人员/拨出审核人员",
+                        "approve_datetime": "审核日期/拨出审核人员",
+                        "site_no": "营运据点",
+                        "Is_Add": "追加要货否",
+                        "template _no": "模板编号",
+                        "request_detail": [
+                            {
+                                "seq": "项次",
+                                "item_no": "商品编号",
+                                "item_feature_no": "产品特征",
+                                "inventory_unit": "库存单位",
+                                "packing_unit": "包装单位",
+                                "inventory_qty": "库存数量",
+                                "packing_qty": "包装数量",
+                                "price": "单价",
+                                "amount": "金额"
+                            },
+                            {
+                                "seq": "项次",
+                                "item_no": "商品编号",
+                                "item_feature_no": "产品特征",
+                                "inventory_unit": "库存单位",
+                                "packing_unit": "包装单位",
+                                "inventory_qty": "库存数量",
+                                "packing_qty": "包装数量",
+                                "price": "单价",
+                                "amount": "金额",
+                                "Order_qty": "订单数量"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
